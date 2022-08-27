@@ -3,6 +3,7 @@ import './App.css';
 import { AddNumber } from './ui/components/addNumber';
 
 function App() {
+
   return (
     <div className="App">
       <header className="App-header">
@@ -11,9 +12,9 @@ function App() {
           Edit <code>src/App.js</code> and save to reload.
           
         </p>
-      
+      <AddNumber/>
       </header>
-      <AddNumber />
+
     </div>
   );
 }
