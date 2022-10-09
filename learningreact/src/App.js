@@ -4,7 +4,7 @@ import { Todo } from './ui/todo/todoActions';
 import { WrapperList } from './ui/todo/wapperList';
 import { Button, Col, Row, Spin } from 'antd';
 
-function App() {
+function App({ children }) {
   // useTransition
   // const [isPindding, startAction] = useTransition();
   const [counter, setcounter] = React.useState(0);
@@ -69,6 +69,13 @@ function App() {
         </Col>
         <Col>
           <Button onClick={() => setcounter(counter + 1)}>click me </Button>
+        </Col>
+        <Col>
+          {React.Children.map(children, (child) => (
+            <>
+              <Button className="Row">{child}</Button>
+            </>
+          ))}
         </Col>
       </Row>
     </div>
