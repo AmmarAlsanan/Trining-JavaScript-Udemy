@@ -1,13 +1,18 @@
 import './App.css';
-import React, { useTransition } from 'react';
-import { Todo } from './ui/todo/todoActions';
-import { WrapperList } from './ui/todo/wapperList';
-import { Button, Col, Row, Spin } from 'antd';
+import React from 'react';
 
+import { Button, Col, Row } from 'antd';
+
+import { BrowserRouter, useLocation } from 'react-router-dom';
+
+import { AppRoutes } from './appRoutes/appRoutes';
 function App({ children }) {
   // useTransition
   // const [isPindding, startAction] = useTransition();
   const [counter, setcounter] = React.useState(0);
+  const { pathname } = useLocation();
+
+  console.log(pathname);
   // useId from react v18
   // const ids = React.useId();
 
@@ -49,37 +54,15 @@ function App({ children }) {
   // };
 
   return (
-    <div className="App">
-      {/* <div
-        style={{
-          margin: '10%',
-          height: '30rem',
-          width: '40rem',
-          backgroundColor: 'red',
-          borderRadius: '20px',
-          textAlign: 'center',
-          marginTop: `${paddingBox}px`,
-        }}
-      >
-        {isClicked}
-      </div> */}
-      <Row style={{ margin: '30px' }}>
-        <Col>
-          <div>{counter}</div>
-        </Col>
-        <Col>
-          <Button onClick={() => setcounter(counter + 1)}>click me </Button>
-        </Col>
-        <Col>
-          {React.Children.map(children, (child) => (
-            <>
-              <Button className="Row">{child}</Button>
-            </>
-          ))}
-        </Col>
-      </Row>
-    </div>
+    // <BrowserRouter>
+    //   <AppRoutes />
+    // </BrowserRouter>
+
+    <>
+      <div>hdhdh</div>
+    </>
   );
 }
 
 export default App;
+
