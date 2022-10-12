@@ -1,0 +1,82 @@
+/*=============================================
+=            Foundation -Typography            =
+=============================================*/
+
+/*=============================================
+=            Global font size              =
+=============================================*/
+
+$body-font-size: var(--dse-body-font-size, $fs-sm) !default;
+$body-font-weight: var(--dse-body-font-weight, $fw-normal) !default;
+
+/*=====  End of Global font size  ======*/
+
+/*=============================================
+=            Global font familys            =
+=============================================*/
+
+$body-font-family: var(--dse-body-font-family, $playfair) !default;
+
+/*=====  End of Global font familys  ======*/
+
+/*=============================================
+=            Heading Font size              =
+=============================================*/
+
+$h1-font-size: var(--dse-h1-font-size, $h-1) !default;
+$h2-font-size: var(--dse-h2-font-size, $h-2) !default;
+$h3-font-size: var(--dse-h3-font-size, $h-3) !default;
+$h4-font-size: var(--dse-h4-font-size, $h-4) !default;
+$h5-font-size: var(--dse-h5-font-size, $h-5) !default;
+$h6-font-size: var(--dse-h6-font-size, $h-6) !default;
+
+/*=====  End of Heading Font size  ======*/
+
+/*=============================================
+=            Heading Font Weight             =
+=============================================*/
+
+$h1-font-weight: var(--dse-h1-font-weight, $fw-black) !default;
+$h2-font-weight: var(--dse-h2-font-weight, $fw-semibold) !default;
+$h3-font-weight: var(--dse-h3-font-weight, $fw-bold) !default;
+$h4-font-weight: var(--dse-h4-font-weight, $fw-medium) !default;
+$h5-font-weight: var(--dse-h5-font-weight, $fw-normal) !default;
+$h6-font-weight: var(--dse-h6-font-weight, $fw-light) !default;
+
+/*=====  End of Heading Font Weight  ======*/
+
+/*=============================================
+=                Body Font Size             =
+=============================================*/
+
+$body1-font-size: var(--dse-body1-font-size, $fs-lg) !default;
+$body2-font-size: var(--dse-body2-font-size, $fs-sm) !default;
+
+/*=====  End of Body Font Size   ======*/
+
+/*=============================================
+=              Body font weight            =
+=============================================*/
+
+$body1-font-weight: var(--dse-body1-font-weight, $fw-normal) !default;
+$body2-font-weight: var(--dse-body2-font-weight, $fw-normal) !default;
+
+/*=====  End of Body font weight  ======*/
+
+/*=============================================
+=               Button font size            =
+=============================================*/
+
+$btn-font-size: var(--dse-btn-font-size, $fs-sm) !default;
+
+/*=====  End of    Button font size  ======*/
+
+/*=============================================
+=            Button font weight            =
+=============================================*/
+
+$btn-font-weight: var(--dse-btn-font-weight, $fw-medium) !default;
+
+/*=====  End of Button font weight  ======*/
+
+/*=====  End of Foundation -Typography  ======*/
