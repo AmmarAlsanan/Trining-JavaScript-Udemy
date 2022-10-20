@@ -1,7 +1,19 @@
 
 /*=============================================
-=       Mange the multiple packages          =
+=       Design System       =
 =============================================*/
+
+
+/* handle the design pattern of the system , Colors , Typography , variables and mixin in Packages / scss  */
+
+
+/* handle the style lint by using stylelint stylelint-config-prettier stylelint-config-sass-guidelines  */
+
+
+/* handle the style and format before merged to git .. by husky */
+
+
+/* handle the react with typescript */
 
 
 /* we will use Lerna 

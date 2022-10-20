@@ -12,10 +12,10 @@
     "packages": [
       "packages/*"
     ],
-    "nohoist": ["**/normalize-scss"]
+    "nohoist": [
+      "**/normalize-scss"
+    ]
   },
-
-
   "scripts": {
     "build": "yarn lerna run build"
   }
