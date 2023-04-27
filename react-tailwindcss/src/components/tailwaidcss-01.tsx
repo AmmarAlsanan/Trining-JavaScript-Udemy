@@ -1,9 +1,10 @@
 import React from 'react';
-import { Card } from './ui';
+import { Card, Header } from './ui';
 
 const FirstComponent = () => {
   return (
     <React.Fragment>
+      <Header />
       <div className=" justify-center flex m-4 text-center content-center">
         <Card
           image={'https://zos.alipayobjects.com/rmsportal/jkjgkEfvpUPVyRjUImniVslZfWPnJuuZ.png'}
